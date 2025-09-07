@@ -25,7 +25,7 @@ function Yosume() {
         <title>{Payload._global.headTitle}</title>
         <link rel="shortcut icon" href={Payload._global.favicon} />
       </Head>
-      <Container style={Style.global}>
+      <Container style={Style.global} id="resume">
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
         <Skill.Component payload={Payload.skill} />
