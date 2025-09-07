@@ -1,7 +1,0 @@
-# Jekyll configuration for GitHub Pages
-# This file tells Jekyll to ignore certain directories
-exclude:
-  - _next
-  - CNAME
-include:
-  - .nojekyll

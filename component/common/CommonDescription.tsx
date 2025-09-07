@@ -71,7 +71,13 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
           <img
             src={postImage}
             alt={postImage}
-            style={{ height: '20px', verticalAlign: 'middle' }}
+            style={{
+              height: '20px',
+              width: 'auto',
+              maxWidth: '200px',
+              verticalAlign: 'middle',
+              display: 'inline-block',
+            }}
           />
         </li>
       );
@@ -90,7 +96,13 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
           <img
             src={postImage}
             alt={postImage}
-            style={{ height: '20px', verticalAlign: 'middle' }}
+            style={{
+              height: '20px',
+              width: 'auto',
+              maxWidth: '200px',
+              verticalAlign: 'middle',
+              display: 'inline-block',
+            }}
           />
         </li>
       );
@@ -109,7 +121,13 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
           <img
             src={postImage}
             alt={postImage}
-            style={{ height: '20px', verticalAlign: 'middle' }}
+            style={{
+              height: '20px',
+              width: 'auto',
+              maxWidth: '200px',
+              verticalAlign: 'middle',
+              display: 'inline-block',
+            }}
           />
         </li>
       );
